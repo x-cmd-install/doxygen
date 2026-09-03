@@ -1,0 +1,75 @@
+about:
+  description: Official doxygen git repository
+  license: GPL-2.0
+  homepage: https://www.doxygen.org
+  head: ff77f3f
+  archived: false
+  latestVersion: Release_1_18_0
+  collectedAt: 2026-09-03T04:36:04Z
+timeline:
+  created: 2013-05-19
+  lastCommit: 2026-08-31
+  lastRelease: 2026-08-13
+popularity:
+  star: 6571
+  watcher: 152
+  fork: 1357
+  release: 21
+  contributor: 298
+  pullRequest: 571
+  issue: 8260
+language:
+  C++: 10070772
+  Lex: 2016373
+  Python: 1616056
+  JavaScript: 133226
+  TeX: 111321
+  CMake: 105281
+  CSS: 84093
+  Fortran: 32309
+  BibTeX Style: 26578
+  C: 20993
+  PHP: 12314
+  Yacc: 10349
+  Raku: 10297
+  HTML: 7817
+  Shell: 2011
+  Objective-C: 1220
+  Dockerfile: 543
+  Roff: 316
+  C#: 269
+  Java: 169
+totalLine: 14262307
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 1
+    mergedPR: 35
+    openPR: 3
+    closedIssue: 8
+    openIssue: 10
+    commit: 146
+  last90d:
+    since: 2026-06-05
+    release: 1
+    mergedPR: 89
+    openPR: 3
+    closedIssue: 19
+    openIssue: 14
+    commit: 329
+  last180d:
+    since: 2026-03-07
+    release: 2
+    mergedPR: 195
+    openPR: 5
+    closedIssue: 48
+    openIssue: 23
+    commit: 756
+  last360d:
+    since: 2025-09-08
+    release: 5
+    mergedPR: 332
+    openPR: 9
+    closedIssue: 121
+    openIssue: 51
+    commit: 1339
