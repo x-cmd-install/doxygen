@@ -2,29 +2,29 @@ about:
   description: "Official doxygen git repository"
   license: GPL-2.0
   homepage: https://www.doxygen.org
-  head: 8e4c358
+  head: ae4c402
   archived: false
   latestVersion: "Release_1_18_0"
-  collectedAt: 2026-09-07T05:13:02Z
+  collectedAt: 2026-09-07T19:10:52Z
 timeline:
   created: 2013-05-19
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-08-13
 popularity:
-  star: 6573
+  star: 6574
   watcher: 153
   fork: 1359
   release: 21
   contributor: 299
-  pullRequest: 3964
-  issue: 8264
+  pullRequest: 3967
+  issue: 8265
 language:
-  C++: 10074718
+  C++: 10074808
   Lex: 2016432
   Python: 1616056
   JavaScript: 133226
   TeX: 111321
-  CMake: 105281
+  CMake: 105275
   CSS: 84093
   Fortran: 32309
   BibTeX Style: 26578
@@ -39,66 +39,66 @@ language:
   Roff: 316
   C#: 269
   Java: 169
-totalBytes: 14266312
+totalBytes: 14266396
 recent:
   last30d:
     since: 2026-08-08
     release: 1
-    mergedPR: 36
+    mergedPR: 39
     openPR: 3
     closedIssue: 7
-    openIssue: 13
-    commit: 107
+    openIssue: 14
+    commit: 113
   last60d:
     since: 2026-07-09
     release: 1
-    mergedPR: 52
+    mergedPR: 55
     openPR: 3
     closedIssue: 12
-    openIssue: 15
-    commit: 211
+    openIssue: 16
+    commit: 217
   last90d:
     since: 2026-06-09
     release: 1
-    mergedPR: 87
+    mergedPR: 90
     openPR: 3
     closedIssue: 20
-    openIssue: 17
-    commit: 295
+    openIssue: 18
+    commit: 301
   last180d:
     since: 2026-03-11
     release: 2
-    mergedPR: 195
+    mergedPR: 198
     openPR: 5
     closedIssue: 48
-    openIssue: 26
-    commit: 756
+    openIssue: 27
+    commit: 762
   last360d:
     since: 2025-09-12
     release: 5
-    mergedPR: 335
+    mergedPR: 338
     openPR: 9
     closedIssue: 121
-    openIssue: 52
-    commit: 1349
+    openIssue: 53
+    commit: 1355
   last720d:
     since: 2024-09-17
     release: 9
-    mergedPR: 547
+    mergedPR: 550
     openPR: 20
     closedIssue: 334
-    openIssue: 168
-    commit: 2199
+    openIssue: 169
+    commit: 2205
 total:
   release: 21
-  mergedPR: 3393
+  mergedPR: 3396
   openPR: 201
   closedIssue: 6597
-  openIssue: 1667
-  commit: 13411
+  openIssue: 1668
+  commit: 13417
 ---
 path: /home/runner/.x-repo/github.com/doxygen/doxygen
-collectedAt: 2026-09-07T05:13:21Z
+collectedAt: 2026-09-07T19:11:10Z
 loc:
   C:
     code: 187113
@@ -106,7 +106,7 @@ loc:
     blanks: 17318
     files: 40
   Cpp:
-    code: 141814
+    code: 141815
     comments: 12533
     blanks: 10850
     files: 207
@@ -251,7 +251,7 @@ loc:
     blanks: 107
     files: 6
 total:
-  code: 569088
+  code: 569089
   comments: 146547
   blanks: 54280
   files: 1097
@@ -383,7 +383,7 @@ checks:
       - 'Warn: 0 commits out of 20 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:13:23+00:00
+  collectedAt: 2026-09-07T19:11:11+00:00
   platform:
     darwin/arm64:
       name:  null
