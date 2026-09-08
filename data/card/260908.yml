@@ -5,13 +5,13 @@ about:
   head: ae4c402
   archived: false
   latestVersion: "Release_1_18_0"
-  collectedAt: 2026-09-08T02:29:33Z
+  collectedAt: 2026-09-08T05:06:13Z
 timeline:
   created: 2013-05-19
   lastCommit: 2026-09-07
   lastRelease: 2026-08-13
 popularity:
-  star: 6574
+  star: 6573
   watcher: 153
   fork: 1359
   release: 21
@@ -98,7 +98,7 @@ total:
   commit: 13417
 ---
 path: /home/runner/.x-repo/github.com/doxygen/doxygen
-collectedAt: 2026-09-08T02:30:07Z
+collectedAt: 2026-09-08T05:06:47Z
 loc:
   C:
     code: 187113
