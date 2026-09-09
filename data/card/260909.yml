@@ -7,7 +7,7 @@ about:
   latestVersion: "Release_1_18_0"
   latestRelease: "Release_1_18_0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:18:50Z
+  collectedAt: 2026-09-09T19:37:10Z
 timeline:
   created: 2013-05-19
   lastCommit: 2026-09-08
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-08-13
   lastPrerelease: 
 popularity:
-  star: 6573
+  star: 6575
   watcher: 153
   fork: 1360
   release: 21
   contributor: 299
-  pullRequest: 3968
-  issue: 8265
+  pullRequest: 3969
+  issue: 8266
 language:
   C++: 10074798
   Lex: 2016572
@@ -49,60 +49,60 @@ recent:
     since: 2026-08-10
     release: 1
     mergedPR: 39
-    openPR: 2
+    openPR: 3
     closedIssue: 7
-    openIssue: 14
+    openIssue: 15
     commit: 115
   last60d:
     since: 2026-07-11
     release: 1
     mergedPR: 55
-    openPR: 2
+    openPR: 3
     closedIssue: 12
-    openIssue: 16
+    openIssue: 17
     commit: 219
   last90d:
     since: 2026-06-11
     release: 1
     mergedPR: 88
-    openPR: 2
+    openPR: 3
     closedIssue: 20
-    openIssue: 18
+    openIssue: 19
     commit: 303
   last180d:
     since: 2026-03-13
     release: 2
     mergedPR: 200
-    openPR: 4
+    openPR: 5
     closedIssue: 45
-    openIssue: 27
+    openIssue: 28
     commit: 764
   last360d:
     since: 2025-09-14
     release: 5
     mergedPR: 340
-    openPR: 8
+    openPR: 9
     closedIssue: 120
-    openIssue: 53
+    openIssue: 54
     commit: 1357
   last720d:
     since: 2024-09-19
     release: 9
     mergedPR: 551
-    openPR: 19
+    openPR: 20
     closedIssue: 333
-    openIssue: 169
+    openIssue: 170
     commit: 2205
 total:
   release: 21
   mergedPR: 3398
-  openPR: 200
+  openPR: 201
   closedIssue: 6597
-  openIssue: 1668
+  openIssue: 1669
   commit: 13422
 ---
 path: /home/runner/.x-repo/github.com/doxygen/doxygen
-collectedAt: 2026-09-09T05:19:12Z
+collectedAt: 2026-09-09T19:37:31Z
 loc:
   C:
     code: 187113
