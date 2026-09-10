@@ -1,3 +1,65 @@
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.9.3
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.18.0
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.9.3
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.18.0
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.9.3
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: raspbian_testing
+  subrepo: main
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.15.0
+  origversion: 1.15.0+ds1-1.1
+  status: outdated
+  maintainers:
+    - paolo.greppi@libpf.com
+  categories:
+    - devel
 - repo: almalinux_8
   subrepo: PowerTools
   srcname: doxygen
@@ -12,18 +74,43 @@
     - GPL+
   categories:
     - Unspecified
-- repo: almalinux_9
-  subrepo: CRB
+- repo: openkylin_1_0
+  subrepo: yangtze/main
   srcname: doxygen
   binnames:
     - doxygen
-    - doxygen-doxywizard
     - doxygen-latex
-    - doxygen-debuginfo
-    - doxygen-debugsource
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
   visiblename: doxygen
-  version: 1.9.1
-  origversion: 1:1.9.1-12.el9_5
+  version: 1.9.4
+  origversion: 1.9.4-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - devel
+- repo: almalinux_8
+  subrepo: PowerTools
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.8.14
+  origversion: 1:1.8.14-12.el8
+  status: outdated
+  summary: A documentation system for C/C++
+  maintainers:
+    - packager@cloudlinux.com
+  licenses:
+    - GPL+
+  categories:
+    - Unspecified
+- repo: almalinux_8
+  subrepo: PowerTools
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.8.14
+  origversion: 1:1.8.14-13.el8_10
   status: outdated
   summary: A documentation system for C/C++
   maintainers:
@@ -32,17 +119,6 @@
     - GPL+
   categories:
     - Unspecified
-- repo: chimera
-  subrepo: main
-  srcname: doxygen
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.17.0
-  origversion: 1.17.0-r0
-  status: outdated
-  summary: Source code documentation generator tool
-  licenses:
-    - GPL-2.0-only
 - repo: adelie_current
   subrepo: user
   srcname: doxygen
@@ -78,26 +154,18 @@
   summary: The de-facto standard tool for generating documentation from annotated C++ sources
   licenses:
     - GPL-2.0-only
-- repo: almalinux_8
-  subrepo: PowerTools
+- repo: almalinux_9
+  subrepo: CRB
   srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-doxywizard
+    - doxygen-latex
+    - doxygen-debuginfo
+    - doxygen-debugsource
   visiblename: doxygen
-  version: 1.8.14
-  origversion: 1:1.8.14-12.el8
-  status: outdated
-  summary: A documentation system for C/C++
-  maintainers:
-    - packager@cloudlinux.com
-  licenses:
-    - GPL+
-  categories:
-    - Unspecified
-- repo: almalinux_8
-  subrepo: PowerTools
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.8.14
-  origversion: 1:1.8.14-13.el8_10
+  version: 1.9.1
+  origversion: 1:1.9.1-12.el9_5
   status: outdated
   summary: A documentation system for C/C++
   maintainers:
@@ -158,21 +226,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.9.8
-  origversion: 1.9.8+ds-2.1+apertis2
-  status: outdated
-  maintainers:
-    - paolo.greppi@libpf.com
 - repo: alpine_3_20
   subrepo: main
   srcname: doxygen
@@ -264,6 +317,21 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.9.8
+  origversion: 1.9.8+ds-2.1+apertis2
+  status: outdated
+  maintainers:
+    - paolo.greppi@libpf.com
 - repo: alpine_3_24
   subrepo: main
   srcname: doxygen
@@ -411,6 +479,23 @@
   status: outdated
   maintainers:
     - paolo.greppi@libpf.com
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-doc
+    - doxygen-doxyparse
+    - doxygen-gui
+    - doxygen-latex
+  visiblename: doxygen
+  version: 1.9.8
+  origversion: 1.9.8+ds-2.1
+  status: outdated
+  maintainers:
+    - paolo.greppi@libpf.com
+  categories:
+    - devel
 - repo: apertis_v2027
   subrepo: v2027dev1/development
   srcname: doxygen
@@ -429,23 +514,23 @@
 - repo: arch
   subrepo: extra
   srcname: doxygen
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.18.0
-  origversion: 1.18.0-1
-  status: newest
-  summary: Documentation system for C++, C, Java, IDL and PHP
-  licenses:
-    - GPL-2.0-or-later
-- repo: arch
-  subrepo: extra
-  srcname: doxygen
   binname: doxygen-docs
   visiblename: doxygen-docs
   version: 1.18.0
   origversion: 1.18.0-1
   status: newest
   summary: Developer documentation for doxygen
+  licenses:
+    - GPL-2.0-or-later
+- repo: arch
+  subrepo: extra
+  srcname: doxygen
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.18.0
+  origversion: 1.18.0-1
+  status: newest
+  summary: Documentation system for C++, C, Java, IDL and PHP
   licenses:
     - GPL-2.0-or-later
 - repo: archpower_powerpc
@@ -503,23 +588,23 @@
 - repo: artix
   subrepo: world
   srcname: doxygen
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.18.0
-  origversion: 1.18.0-1
-  status: newest
-  summary: Documentation system for C++, C, Java, IDL and PHP
-  licenses:
-    - GPL-2.0-or-later
-- repo: artix
-  subrepo: world
-  srcname: doxygen
   binname: doxygen-docs
   visiblename: doxygen-docs
   version: 1.18.0
   origversion: 1.18.0-1
   status: newest
   summary: Developer documentation for doxygen
+  licenses:
+    - GPL-2.0-or-later
+- repo: artix
+  subrepo: world
+  srcname: doxygen
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.18.0
+  origversion: 1.18.0-1
+  status: newest
+  summary: Documentation system for C++, C, Java, IDL and PHP
   licenses:
     - GPL-2.0-or-later
 - repo: centos_8
@@ -705,6 +790,17 @@
     - GPL-1.0-or-later
   categories:
     - Unspecified
+- repo: chimera
+  subrepo: main
+  srcname: doxygen
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.17.0
+  origversion: 1.17.0-r0
+  status: outdated
+  summary: Source code documentation generator tool
+  licenses:
+    - GPL-2.0-only
 - repo: chimera
   subrepo: main
   srcname: doxygen
@@ -1238,23 +1334,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - js-doxygen
-    - doxygen-doxywizard
-    - doxygen-latex
-  visiblename: doxygen
-  version: 1.14.0
-  origversion: 2:1.14.0-5.fc43
-  status: outdated
-  summary: A documentation system for C/C++
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: doxygen
   binnames:
@@ -1265,6 +1344,23 @@
   visiblename: doxygen
   version: 1.14.0
   origversion: 2:1.14.0-4.fc43
+  status: outdated
+  summary: A documentation system for C/C++
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - js-doxygen
+    - doxygen-doxywizard
+    - doxygen-latex
+  visiblename: doxygen
+  version: 1.14.0
+  origversion: 2:1.14.0-5.fc43
   status: outdated
   summary: A documentation system for C/C++
   licenses:
@@ -1537,6 +1633,17 @@
     - GPL-2
   categories:
     - app-text
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: doxygen
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.18.0
+  origversion: 1.18.0-1
+  status: newest
+  summary: A documentation system for C++, C, Java, IDL and PHP
+  licenses:
+    - spdx:GPL-2.0-only
 - repo: liguros_develop
   srcname: app-text/doxygen
   visiblename: app-text/doxygen
@@ -1576,15 +1683,6 @@
     - GPL-2
   categories:
     - app-text
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: doxygen
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.8.4
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: liguros_develop
   srcname: app-text/doxygen
   visiblename: app-text/doxygen
@@ -1626,6 +1724,17 @@
     - GPL-2
   categories:
     - aqua
+- repo: openindiana
+  subrepo: hipster
+  srcname: doxygen
+  binname: developer/documentation-tool/doxygen
+  visiblename: doxygen
+  version: 1.17.0
+  origversion: null
+  status: legacy
+  summary: Doxygen - Source Code Documentation Tool
+  categories:
+    - Development/Distribution Tools
 - repo: macports
   srcname: textproc/doxygen
   binname: doxygen
@@ -1798,6 +1907,17 @@
   summary: A documentation system for C++, C, Java, IDL and PHP (mingw-w64)
   licenses:
     - spdx:GPL-2.0-only
+- repo: openindiana
+  subrepo: hipster
+  srcname: doxygen
+  binname: developer/documentation-tool/doxygen
+  visiblename: doxygen
+  version: 1.18.0
+  origversion: null
+  status: newest
+  summary: Doxygen - Source Code Documentation Tool
+  categories:
+    - Development/Distribution Tools
 - repo: msys2_mingw
   subrepo: i686
   srcname: mingw-w64-doxygen
@@ -1807,17 +1927,6 @@
   origversion: 1.18.0-3
   status: newest
   summary: A documentation system for C++, C, Java, IDL and PHP (mingw-w64)
-  licenses:
-    - spdx:GPL-2.0-only
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: doxygen
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.18.0
-  origversion: 1.18.0-1
-  status: newest
-  summary: A documentation system for C++, C, Java, IDL and PHP
   licenses:
     - spdx:GPL-2.0-only
 - repo: msys2_ucrt64
@@ -1956,6 +2065,23 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.9.4
+  origversion: 1.9.4-4
+  status: outdated
+  maintainers:
+    - paolo.greppi@libpf.com
+  categories:
+    - devel
 - repo: nix_unstable
   srcname: doxygen
   visiblename: doxygen
@@ -2150,45 +2276,6 @@
   summary: Doxygen - Source Code Documentation Tool
   categories:
     - Development/Distribution Tools
-- repo: openindiana
-  subrepo: hipster
-  srcname: doxygen
-  binname: developer/documentation-tool/doxygen
-  visiblename: doxygen
-  version: 1.17.0
-  origversion: null
-  status: legacy
-  summary: Doxygen - Source Code Documentation Tool
-  categories:
-    - Development/Distribution Tools
-- repo: openindiana
-  subrepo: hipster
-  srcname: doxygen
-  binname: developer/documentation-tool/doxygen
-  visiblename: doxygen
-  version: 1.18.0
-  origversion: null
-  status: newest
-  summary: Doxygen - Source Code Documentation Tool
-  categories:
-    - Development/Distribution Tools
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.9.4
-  origversion: 1.9.4-ok2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - devel
 - repo: openkylin_1_0
   subrepo: yangtze-proposed/main
   srcname: doxygen
@@ -2402,6 +2489,23 @@
     - GPL-2.0+ AND GPL-3.0
   categories:
     - Development/Tools/Doc Generators
+- repo: raspbian_stable
+  subrepo: main
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.9.8
+  origversion: 1.9.8+ds-2.1
+  status: outdated
+  maintainers:
+    - paolo.greppi@libpf.com
+  categories:
+    - devel
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: doxygen-1_10
@@ -2430,6 +2534,17 @@
     - GPL-2.0-or-later
   categories:
     - Development/Tools/Doc Generators
+- repo: side
+  srcname: databuild/doxygen
+  visiblename: doxygen
+  version: 1.14.0
+  origversion: null
+  status: outdated
+  summary: Doxygen is the de facto standard tool for generating documentation from annotated C++ sources.
+  maintainers:
+    - uglyside@yandex.ru
+  licenses:
+    - GPL-2
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: doxywizard
@@ -2637,74 +2752,6 @@
     - paolo.greppi@libpf.com
   categories:
     - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-doc
-    - doxygen-doxyparse
-    - doxygen-gui
-    - doxygen-latex
-  visiblename: doxygen
-  version: 1.9.8
-  origversion: 1.9.8+ds-2.1
-  status: outdated
-  maintainers:
-    - paolo.greppi@libpf.com
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.9.4
-  origversion: 1.9.4-4
-  status: outdated
-  maintainers:
-    - paolo.greppi@libpf.com
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.9.8
-  origversion: 1.9.8+ds-2.1
-  status: outdated
-  maintainers:
-    - paolo.greppi@libpf.com
-  categories:
-    - devel
-- repo: raspbian_testing
-  subrepo: main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.15.0
-  origversion: 1.15.0+ds1-1.1
-  status: outdated
-  maintainers:
-    - paolo.greppi@libpf.com
-  categories:
-    - devel
 - repo: ravenports
   srcname: doxygen
   binname: doxygen
@@ -2831,62 +2878,6 @@
   summary: Doxygen is the de facto standard tool for generating documentation from annotated C++ sources, but it also supports other popular programming languages such as C, Objective-C, C#, PHP, Java, Python, IDL (Corba, Microsoft, and UNO/OpenOffice flavors), Fortran, and to some extent D.
   categories:
     - Documentation generator
-- repo: side
-  srcname: databuild/doxygen
-  visiblename: doxygen
-  version: 1.14.0
-  origversion: null
-  status: outdated
-  summary: Doxygen is the de facto standard tool for generating documentation from annotated C++ sources.
-  maintainers:
-    - uglyside@yandex.ru
-  licenses:
-    - GPL-2
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.9.3
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.18.0
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.9.3
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.18.0
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: doxygen
-  visiblename: doxygen
-  version: 1.9.3
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: solus
   srcname: doxygen
   binname: doxygen
@@ -2962,23 +2953,6 @@
     - GPL
   categories:
     - extra/development
-- repo: ubuntu_25_10
-  subrepo: questing-updates/universe
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.9.8
-  origversion: 1.9.8+ds-2.1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/devel
 - repo: termux
   srcname: doxygen
   binname: doxygen
@@ -2989,23 +2963,6 @@
   summary: A documentation system for C++, C, Java, IDL and PHP
   maintainers:
     - termux@github
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.8.17
-  origversion: 1.8.17-0ubuntu2+10.0trisquel2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - devel
 - repo: trisquel_10_0
   subrepo: nabia-updates/main
   srcname: doxygen
@@ -3023,8 +2980,25 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - devel
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.8.17
+  origversion: 1.8.17-0ubuntu2+10.0trisquel2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - devel
 - repo: trisquel_11_0
-  subrepo: aramo/main
+  subrepo: aramo-updates/main
   srcname: doxygen
   binnames:
     - doxygen
@@ -3041,7 +3015,7 @@
   categories:
     - devel
 - repo: trisquel_11_0
-  subrepo: aramo-updates/main
+  subrepo: aramo/main
   srcname: doxygen
   binnames:
     - doxygen
@@ -3108,23 +3082,6 @@
   categories:
     - universe/devel
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-doxyparse
-  visiblename: doxygen
-  version: 1.9.8
-  origversion: 1.9.8+ds-2build5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/devel
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: doxygen
   binnames:
@@ -3136,6 +3093,23 @@
   visiblename: doxygen
   version: 1.9.8
   origversion: 1.9.8+ds-2ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/devel
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.9.8
+  origversion: 1.9.8+ds-2build5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3173,6 +3147,23 @@
   status: outdated
   maintainers:
     - paolo.greppi@libpf.com
+  categories:
+    - universe/devel
+- repo: ubuntu_25_10
+  subrepo: questing-updates/universe
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-doxyparse
+  visiblename: doxygen
+  version: 1.9.8
+  origversion: 1.9.8+ds-2.1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/devel
 - repo: ubuntu_26_04
@@ -3231,7 +3222,7 @@
   status: newest
   summary: Source code documentation generator tool
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q1253530
   visiblename: Q1253530
@@ -3289,47 +3280,41 @@
   status: outdated
   licenses:
     - GPL-2.0
-- repo: aix_osp
+- repo: amazon_2
   srcname: doxygen
   visiblename: doxygen
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: legacy
+  version: 1.8.5
+  origversion: 1:1.8.5-4.amzn2
+  status: outdated
+  summary: A documentation system for C/C++
+  licenses:
+    - GPL+
+  categories:
+    - Unspecified
   vulnerable: true
-- repo: aix_osp
+- repo: amazon_2
   srcname: doxygen
   visiblename: doxygen
-  version: 1.6.2
-  origversion: 1.6.2-1
-  status: legacy
+  version: 1.8.5
+  origversion: 1:1.8.5-3.amzn2.0.2
+  status: outdated
+  summary: A documentation system for C/C++
+  licenses:
+    - GPL+
+  categories:
+    - Unspecified
   vulnerable: true
-- repo: aix_osp
+- repo: amazon_2
   srcname: doxygen
   visiblename: doxygen
-  version: 1.6.3
-  origversion: 1.6.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.7.5.1
-  origversion: 1.7.5.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.7.6.1
-  origversion: 1.7.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.7.6.1
-  origversion: 1.7.6.1-2
-  status: legacy
+  version: 1.8.5
+  origversion: 1:1.8.5-3.amzn2
+  status: outdated
+  summary: A documentation system for C/C++
+  licenses:
+    - GPL+
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: aix_osp
   srcname: doxygen
@@ -3429,6 +3414,48 @@
   origversion: 1.8.9-1
   status: legacy
   vulnerable: true
+- repo: aix_osp
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.6.1
+  origversion: 1.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.6.2
+  origversion: 1.6.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.6.3
+  origversion: 1.6.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.7.5.1
+  origversion: 1.7.5.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.7.6.1
+  origversion: 1.7.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: doxygen
+  visiblename: doxygen
+  version: 1.7.6.1
+  origversion: 1.7.6.1-2
+  status: legacy
+  vulnerable: true
 - repo: amazon_1
   subrepo: main
   srcname: doxygen
@@ -3452,42 +3479,6 @@
   summary: A documentation system for C/C++
   licenses:
     - GPLv2
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.8.5
-  origversion: 1:1.8.5-3.amzn2.0.2
-  status: outdated
-  summary: A documentation system for C/C++
-  licenses:
-    - GPL+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.8.5
-  origversion: 1:1.8.5-3.amzn2
-  status: outdated
-  summary: A documentation system for C/C++
-  licenses:
-    - GPL+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: doxygen
-  visiblename: doxygen
-  version: 1.8.5
-  origversion: 1:1.8.5-4.amzn2
-  status: outdated
-  summary: A documentation system for C/C++
-  licenses:
-    - GPL+
   categories:
     - Unspecified
   vulnerable: true
@@ -3516,6 +3507,15 @@
     - GPL+
   categories:
     - Unspecified
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: doxygen
+  binname: doxygen
+  visiblename: doxygen
+  version: 1.8.4
+  origversion: null
+  status: legacy
   vulnerable: true
 - repo: hpux_11_31
   subrepo: hppa_32
@@ -3562,25 +3562,6 @@
     - devel
   vulnerable: true
 - repo: ubuntu_16_04
-  subrepo: xenial-updates/main
-  srcname: doxygen
-  binnames:
-    - doxygen
-    - doxygen-latex
-    - doxygen-doc
-    - doxygen-gui
-    - doxygen-dbg
-  visiblename: doxygen
-  version: 1.8.11
-  origversion: 1.8.11-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - helmut@subdivi.de
-  categories:
-    - devel
-  vulnerable: true
-- repo: ubuntu_16_04
   subrepo: xenial/main
   srcname: doxygen
   binnames:
@@ -3595,6 +3576,25 @@
   status: outdated
   maintainers:
     - doko@debian.org
+    - helmut@subdivi.de
+  categories:
+    - devel
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: doxygen
+  binnames:
+    - doxygen
+    - doxygen-latex
+    - doxygen-doc
+    - doxygen-gui
+    - doxygen-dbg
+  visiblename: doxygen
+  version: 1.8.11
+  origversion: 1.8.11-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - helmut@subdivi.de
   categories:
     - devel

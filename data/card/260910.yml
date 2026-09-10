@@ -7,7 +7,7 @@ about:
   latestVersion: "Release_1_18_0"
   latestRelease: "Release_1_18_0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:47:15Z
+  collectedAt: 2026-09-10T23:03:11Z
 timeline:
   created: 2013-05-19
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-13
   lastPrerelease: 
 popularity:
-  star: 6577
+  star: 6578
   watcher: 153
   fork: 1361
   release: 21
@@ -102,7 +102,7 @@ total:
   commit: 13425
 ---
 path: /home/runner/.x-repo/github.com/doxygen/doxygen
-collectedAt: 2026-09-10T20:47:37Z
+collectedAt: 2026-09-10T23:03:31Z
 loc:
   C:
     code: 187113
