@@ -12,7 +12,7 @@ Official doxygen git repository
 x install doxygen
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **568,680** 行代码（覆盖前 5 种语言、共 **899** 个文件）。
 
@@ -48,7 +48,7 @@ x install doxygen
 
 ## 流行度
 
-- **Star**: 6,577 · **Fork**: 1,361 · **开放 issue**: 8,268 · **贡献者**: 299
+- **Star**: 6,578 · **Fork**: 1,361 · **开放 issue**: 8,268 · **贡献者**: 299
 
 ## 累计统计
 
@@ -108,4 +108,4 @@ doxygen 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T20:48:04Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:03:50Z._
