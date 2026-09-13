@@ -14,12 +14,12 @@ x install doxygen
 
 ## Code insight
 
-Total: **568,689** lines of code across **899** files in the top 5 languages.
+Total: **568,692** lines of code across **899** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 187,113 | 79,773 | 17,318 | 40 |
-| Cpp | 141,823 | 12,533 | 10,850 | 207 |
+| Cpp | 141,826 | 12,533 | 10,850 | 207 |
 | CHeader | 134,128 | 48,137 | 20,266 | 395 |
 | Python | 35,422 | 965 | 1,069 | 25 |
 | Xml | 34,921 | 20 | 58 | 232 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `Release_1_18_0` (2026-08-13)
-- **Last commit**: 2026-09-11
+- **Last commit**: 2026-09-12
 - **Assets in release**: 10
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3400 · **Open PRs**: 200 · **Closed issues**: 6599 · **Open issues**: 1669 · **Commits**: 13429
+- **Releases**: 21 · **Merged PRs**: 3401 · **Open PRs**: 201 · **Closed issues**: 6598 · **Open issues**: 1670 · **Commits**: 13432
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 36 | 2 | 7 | 15 | 122 |
-| last60d | 2026-07-13 | 1 | 57 | 2 | 14 | 17 | 226 |
-| 90d | 2026-06-13 | 1 | 86 | 2 | 22 | 19 | 310 |
-| last180d | 2026-03-15 | 2 | 202 | 4 | 47 | 28 | 771 |
-| 360d | 2025-09-16 | 5 | 342 | 8 | 122 | 54 | 1364 |
-| last720d | 2024-09-21 | 9 | 553 | 19 | 335 | 169 | 2210 |
+| 30d | 2026-08-14 | 0 | 32 | 3 | 7 | 14 | 67 |
+| last60d | 2026-07-15 | 1 | 58 | 3 | 14 | 17 | 226 |
+| 90d | 2026-06-15 | 1 | 83 | 3 | 19 | 20 | 281 |
+| last180d | 2026-03-17 | 2 | 203 | 5 | 46 | 29 | 763 |
+| 360d | 2025-09-18 | 5 | 343 | 9 | 121 | 54 | 1357 |
+| last720d | 2024-09-23 | 9 | 552 | 20 | 333 | 170 | 2207 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:41:56Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:26:14Z._
