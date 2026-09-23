@@ -4,7 +4,7 @@
 
 Official doxygen git repository
 
-[![x-cmd/install — doxygen Code Quality Monitoring Repo Card](https://repo.x-cmd.io/doxygen.svg?lang=zh)](https://x-cmd.com/install/doxygen)
+[![x-cmd/install — doxygen Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/doxygen.svg?lang=zh)](https://x-cmd.com/install/doxygen)
 
 ## 安装
 
@@ -52,18 +52,18 @@ x install doxygen
 
 ## 累计统计
 
-- **发布数**: 21 · **已合并 PR**: 3409 · **开放 PR**: 203 · **已关闭 issue**: 6601 · **开放 issue**: 1674 · **提交数**: 13456
+- **发布数**: 21 · **已合并 PR**: 3409 · **开放 PR**: 205 · **已关闭 issue**: 6601 · **开放 issue**: 1674 · **提交数**: 13456
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 26 | 5 | 5 | 20 | 68 |
-| last60d | 2026-07-24 | 1 | 61 | 5 | 12 | 24 | 223 |
-| 90d | 2026-06-24 | 1 | 80 | 5 | 16 | 26 | 284 |
-| last180d | 2026-03-26 | 2 | 206 | 7 | 42 | 35 | 755 |
-| 360d | 2025-09-27 | 5 | 347 | 11 | 121 | 59 | 1344 |
-| last720d | 2024-10-02 | 9 | 553 | 21 | 327 | 176 | 2212 |
+| 30d | 2026-08-24 | 0 | 25 | 7 | 5 | 20 | 68 |
+| last60d | 2026-07-25 | 1 | 61 | 7 | 12 | 24 | 223 |
+| 90d | 2026-06-25 | 1 | 78 | 7 | 16 | 25 | 284 |
+| last180d | 2026-03-27 | 2 | 206 | 9 | 42 | 34 | 755 |
+| 360d | 2025-09-28 | 5 | 346 | 13 | 121 | 59 | 1344 |
+| last720d | 2024-10-03 | 9 | 553 | 23 | 326 | 176 | 2206 |
 
 ## Release 资产
 
@@ -89,4 +89,4 @@ doxygen 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:31:12Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:40:29Z._

@@ -4,7 +4,7 @@
 
 Official doxygen git repository
 
-[![x-cmd/install — doxygen Code Quality Monitoring Repo Card](https://repo.x-cmd.io/doxygen.svg)](https://x-cmd.com/install/doxygen)
+[![x-cmd/install — doxygen Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/doxygen.svg)](https://x-cmd.com/install/doxygen)
 
 ## Install
 
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3409 · **Open PRs**: 203 · **Closed issues**: 6601 · **Open issues**: 1674 · **Commits**: 13456
+- **Releases**: 21 · **Merged PRs**: 3409 · **Open PRs**: 205 · **Closed issues**: 6601 · **Open issues**: 1674 · **Commits**: 13456
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 26 | 5 | 5 | 20 | 68 |
-| last60d | 2026-07-24 | 1 | 61 | 5 | 12 | 24 | 223 |
-| 90d | 2026-06-24 | 1 | 80 | 5 | 16 | 26 | 284 |
-| last180d | 2026-03-26 | 2 | 206 | 7 | 42 | 35 | 755 |
-| 360d | 2025-09-27 | 5 | 347 | 11 | 121 | 59 | 1344 |
-| last720d | 2024-10-02 | 9 | 553 | 21 | 327 | 176 | 2212 |
+| 30d | 2026-08-24 | 0 | 25 | 7 | 5 | 20 | 68 |
+| last60d | 2026-07-25 | 1 | 61 | 7 | 12 | 24 | 223 |
+| 90d | 2026-06-25 | 1 | 78 | 7 | 16 | 25 | 284 |
+| last180d | 2026-03-27 | 2 | 206 | 9 | 42 | 34 | 755 |
+| 360d | 2025-09-28 | 5 | 346 | 13 | 121 | 59 | 1344 |
+| last720d | 2024-10-03 | 9 | 553 | 23 | 326 | 176 | 2206 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:31:11Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:40:28Z._
