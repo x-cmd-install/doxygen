@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,588 · **Forks**: 1,364 · **Open issues**: 8,279 · **Contributors**: 301
+- **Stars**: 6,588 · **Forks**: 1,364 · **Open issues**: 8,280 · **Contributors**: 301
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3416 · **Open PRs**: 202 · **Closed issues**: 6601 · **Open issues**: 1678 · **Commits**: 13476
+- **Releases**: 21 · **Merged PRs**: 3416 · **Open PRs**: 203 · **Closed issues**: 6601 · **Open issues**: 1679 · **Commits**: 13476
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 27 | 4 | 3 | 19 | 74 |
-| last60d | 2026-07-31 | 1 | 62 | 4 | 11 | 26 | 228 |
-| 90d | 2026-07-01 | 1 | 81 | 4 | 15 | 28 | 291 |
-| last180d | 2026-04-02 | 2 | 201 | 6 | 40 | 38 | 725 |
-| 360d | 2025-10-04 | 5 | 349 | 10 | 118 | 63 | 1315 |
-| last720d | 2024-10-09 | 9 | 558 | 20 | 324 | 180 | 2217 |
+| 30d | 2026-08-31 | 0 | 25 | 5 | 3 | 19 | 74 |
+| last60d | 2026-08-01 | 1 | 61 | 5 | 11 | 27 | 228 |
+| 90d | 2026-07-02 | 1 | 80 | 5 | 15 | 29 | 291 |
+| last180d | 2026-04-03 | 2 | 199 | 7 | 40 | 39 | 725 |
+| 360d | 2025-10-05 | 5 | 347 | 11 | 118 | 64 | 1315 |
+| last720d | 2024-10-10 | 9 | 558 | 21 | 323 | 181 | 2215 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:16:32Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:03:02Z._
