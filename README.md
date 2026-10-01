@@ -14,15 +14,15 @@ x install doxygen
 
 ## Code insight
 
-Total: **569,308** lines of code across **908** files in the top 5 languages.
+Total: **569,348** lines of code across **909** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 187,113 | 79,773 | 17,318 | 40 |
 | Cpp | 142,177 | 12,546 | 10,857 | 210 |
-| CHeader | 134,148 | 48,141 | 20,268 | 396 |
+| CHeader | 134,156 | 48,141 | 20,268 | 396 |
 | Python | 35,422 | 965 | 1,069 | 25 |
-| Xml | 35,160 | 20 | 58 | 237 |
+| Xml | 35,192 | 20 | 58 | 238 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `Release_1_18_0` (2026-08-13)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-30
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,588 · **Forks**: 1,364 · **Open issues**: 8,280 · **Contributors**: 301
+- **Stars**: 6,589 · **Forks**: 1,366 · **Open issues**: 8,281 · **Contributors**: 301
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3416 · **Open PRs**: 203 · **Closed issues**: 6601 · **Open issues**: 1679 · **Commits**: 13476
+- **Releases**: 21 · **Merged PRs**: 3419 · **Open PRs**: 202 · **Closed issues**: 6601 · **Open issues**: 1680 · **Commits**: 13483
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 25 | 5 | 3 | 19 | 74 |
-| last60d | 2026-08-01 | 1 | 61 | 5 | 11 | 27 | 228 |
-| 90d | 2026-07-02 | 1 | 80 | 5 | 15 | 29 | 291 |
-| last180d | 2026-04-03 | 2 | 199 | 7 | 40 | 39 | 725 |
-| 360d | 2025-10-05 | 5 | 347 | 11 | 118 | 64 | 1315 |
-| last720d | 2024-10-10 | 9 | 558 | 21 | 323 | 181 | 2215 |
+| 30d | 2026-09-01 | 0 | 27 | 4 | 2 | 20 | 76 |
+| last60d | 2026-08-02 | 1 | 64 | 4 | 11 | 28 | 230 |
+| 90d | 2026-07-03 | 1 | 81 | 4 | 15 | 30 | 293 |
+| last180d | 2026-04-04 | 2 | 201 | 6 | 40 | 40 | 727 |
+| 360d | 2025-10-06 | 5 | 349 | 10 | 116 | 65 | 1317 |
+| last720d | 2024-10-11 | 9 | 561 | 20 | 323 | 182 | 2222 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:03:02Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:22:16Z._
