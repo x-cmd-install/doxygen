@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 26 | 4 | 2 | 21 | 76 |
-| last60d | 2026-08-04 | 1 | 64 | 4 | 11 | 30 | 230 |
-| 90d | 2026-07-05 | 1 | 81 | 4 | 15 | 32 | 293 |
-| last180d | 2026-04-06 | 2 | 199 | 6 | 40 | 42 | 727 |
-| 360d | 2025-10-08 | 5 | 347 | 10 | 116 | 66 | 1317 |
-| last720d | 2024-10-13 | 9 | 561 | 20 | 323 | 183 | 2213 |
+| 30d | 2026-09-04 | 0 | 26 | 3 | 2 | 21 | 55 |
+| last60d | 2026-08-05 | 1 | 64 | 4 | 10 | 30 | 196 |
+| 90d | 2026-07-06 | 1 | 80 | 4 | 15 | 32 | 278 |
+| last180d | 2026-04-07 | 2 | 197 | 6 | 40 | 42 | 692 |
+| 360d | 2025-10-09 | 5 | 347 | 10 | 114 | 66 | 1282 |
+| last720d | 2024-10-14 | 9 | 561 | 20 | 323 | 183 | 2213 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:44:56Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:20:38Z._
