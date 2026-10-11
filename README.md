@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,589 · **Forks**: 1,370 · **Open issues**: 8,286 · **Contributors**: 301
+- **Stars**: 6,593 · **Forks**: 1,372 · **Open issues**: 8,286 · **Contributors**: 301
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 0 | 19 | 2 | 0 | 18 | 55 |
-| last60d | 2026-08-11 | 1 | 59 | 4 | 9 | 33 | 196 |
-| 90d | 2026-07-12 | 1 | 76 | 4 | 14 | 35 | 278 |
-| last180d | 2026-04-13 | 2 | 191 | 6 | 40 | 45 | 692 |
-| 360d | 2025-10-15 | 5 | 341 | 10 | 113 | 69 | 1282 |
-| last720d | 2024-10-20 | 9 | 552 | 20 | 322 | 185 | 2185 |
+| 30d | 2026-09-11 | 0 | 19 | 2 | 0 | 18 | 35 |
+| last60d | 2026-08-12 | 1 | 55 | 4 | 7 | 33 | 128 |
+| 90d | 2026-07-13 | 1 | 76 | 4 | 14 | 35 | 276 |
+| last180d | 2026-04-14 | 2 | 190 | 6 | 40 | 45 | 679 |
+| 360d | 2025-10-16 | 5 | 341 | 10 | 112 | 69 | 1217 |
+| last720d | 2024-10-21 | 9 | 552 | 20 | 322 | 185 | 2185 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T06:11:59Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T06:10:47Z._
