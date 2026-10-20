@@ -26,7 +26,7 @@ Total: **569,650** lines of code across **909** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.1 / 10**
+Overall score: **4.9 / 10**
 
 Lowest-scoring checks:
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,593 · **Forks**: 1,377 · **Open issues**: 8,293 · **Contributors**: 303
+- **Stars**: 6,594 · **Forks**: 1,378 · **Open issues**: 8,294 · **Contributors**: 303
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3421 · **Open PRs**: 201 · **Closed issues**: 6602 · **Open issues**: 1691 · **Commits**: 13493
+- **Releases**: 21 · **Merged PRs**: 3421 · **Open PRs**: 202 · **Closed issues**: 6602 · **Open issues**: 1692 · **Commits**: 13493
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 10 | 3 | 1 | 18 | 24 |
-| last60d | 2026-08-20 | 0 | 39 | 5 | 6 | 37 | 105 |
-| 90d | 2026-07-21 | 1 | 77 | 5 | 13 | 41 | 265 |
-| last180d | 2026-04-22 | 2 | 191 | 7 | 40 | 51 | 663 |
-| 360d | 2025-10-24 | 4 | 329 | 11 | 111 | 72 | 1196 |
-| last720d | 2024-10-29 | 9 | 553 | 21 | 313 | 189 | 2187 |
+| 30d | 2026-09-20 | 0 | 10 | 4 | 1 | 19 | 24 |
+| last60d | 2026-08-21 | 0 | 39 | 6 | 6 | 38 | 105 |
+| 90d | 2026-07-22 | 1 | 75 | 6 | 13 | 42 | 265 |
+| last180d | 2026-04-23 | 2 | 191 | 8 | 39 | 52 | 663 |
+| 360d | 2025-10-25 | 4 | 329 | 12 | 111 | 73 | 1196 |
+| last720d | 2024-10-30 | 9 | 552 | 22 | 313 | 190 | 2186 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:03:59Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:16:19Z._
