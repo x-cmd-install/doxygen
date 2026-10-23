@@ -48,22 +48,22 @@ x install doxygen
 
 ## 流行度
 
-- **Star**: 6,596 · **Fork**: 1,379 · **开放 issue**: 8,303 · **贡献者**: 303
+- **Star**: 6,598 · **Fork**: 1,379 · **开放 issue**: 8,304 · **贡献者**: 303
 
 ## 累计统计
 
-- **发布数**: 21 · **已合并 PR**: 3421 · **开放 PR**: 209 · **已关闭 issue**: 6603 · **开放 issue**: 1700 · **提交数**: 13493
+- **发布数**: 21 · **已合并 PR**: 3421 · **开放 PR**: 211 · **已关闭 issue**: 6603 · **开放 issue**: 1701 · **提交数**: 13493
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 7 | 11 | 2 | 26 | 24 |
-| last60d | 2026-08-23 | 0 | 38 | 13 | 7 | 46 | 105 |
-| 90d | 2026-07-24 | 1 | 73 | 13 | 14 | 50 | 265 |
-| last180d | 2026-04-25 | 2 | 191 | 15 | 38 | 60 | 663 |
-| 360d | 2025-10-27 | 4 | 326 | 19 | 110 | 81 | 1196 |
-| last720d | 2024-11-01 | 9 | 550 | 29 | 313 | 198 | 2180 |
+| 30d | 2026-09-23 | 0 | 7 | 13 | 2 | 27 | 24 |
+| last60d | 2026-08-24 | 0 | 37 | 15 | 7 | 47 | 105 |
+| 90d | 2026-07-25 | 1 | 73 | 15 | 14 | 51 | 265 |
+| last180d | 2026-04-26 | 2 | 189 | 17 | 38 | 61 | 663 |
+| 360d | 2025-10-28 | 4 | 325 | 21 | 107 | 81 | 1196 |
+| last720d | 2024-11-02 | 9 | 550 | 31 | 313 | 199 | 2178 |
 
 ## Release 资产
 
@@ -80,6 +80,25 @@ x install doxygen
 | [doxygen_manual-1.18.0.chm.zip](https://github.com/doxygen/doxygen/releases/download/Release_1_18_0/doxygen_manual-1.18.0.chm.zip) | 14.4 MiB | `other` |
 | [doxygen_manual-1.18.0.pdf.zip](https://github.com/doxygen/doxygen/releases/download/Release_1_18_0/doxygen_manual-1.18.0.pdf.zip) | 1.5 MiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/doxygen) 上共有 **263** 个发行版报告此项目。**60** 个 ✅ 已是最新上游版本，**152** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.15.0` | 🪦 legacy |
+| Debian 14 | `1.15.0` | ⚠️ outdated |
+| Debian 13 | `1.9.8` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.15.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.9.8` | ⚠️ outdated |
+| Arch | `1.18.0` | ✅ latest |
+| Homebrew | `1.18.0` | ✅ latest |
+| Fedora rawhide | `1.18.0` | ✅ latest |
+| Nix unstable | `1.17.0` | ⚠️ outdated |
+| Void | `1.14.0` | ⚠️ outdated |
+| Alpine edge | `1.18.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.18.0` | ✅ latest |
+
 ## 改进这些数据
 
 doxygen 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `doxygen` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -89,4 +108,4 @@ doxygen 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:08:17Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:21:05Z._
