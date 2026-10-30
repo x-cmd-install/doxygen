@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,597 · **Forks**: 1,377 · **Open issues**: 8,305 · **Contributors**: 308
+- **Stars**: 6,598 · **Forks**: 1,377 · **Open issues**: 8,307 · **Contributors**: 308
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3438 · **Open PRs**: 201 · **Closed issues**: 6605 · **Open issues**: 1700 · **Commits**: 13564
+- **Releases**: 21 · **Merged PRs**: 3438 · **Open PRs**: 201 · **Closed issues**: 6605 · **Open issues**: 1702 · **Commits**: 13564
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 19 | 3 | 3 | 22 | 72 |
-| last60d | 2026-08-30 | 0 | 49 | 5 | 6 | 42 | 154 |
-| 90d | 2026-07-31 | 1 | 84 | 5 | 14 | 49 | 304 |
-| last180d | 2026-05-02 | 1 | 195 | 6 | 32 | 59 | 678 |
-| 360d | 2025-11-03 | 4 | 335 | 11 | 103 | 82 | 1240 |
-| last720d | 2024-11-08 | 9 | 562 | 21 | 312 | 198 | 2241 |
+| 30d | 2026-09-30 | 0 | 17 | 3 | 2 | 24 | 72 |
+| last60d | 2026-08-31 | 0 | 47 | 5 | 6 | 43 | 154 |
+| 90d | 2026-08-01 | 1 | 83 | 5 | 14 | 51 | 304 |
+| last180d | 2026-05-03 | 1 | 195 | 6 | 31 | 61 | 678 |
+| 360d | 2025-11-04 | 4 | 335 | 11 | 103 | 84 | 1240 |
+| last720d | 2024-11-09 | 9 | 562 | 21 | 312 | 200 | 2239 |
 
 ## Release assets
 
@@ -92,7 +92,7 @@ Reported by **265** distros on [repology.org](https://repology.org/project/doxyg
 | Ubuntu 26.04 LTS | `1.15.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.9.8` | ⚠️ outdated |
 | Arch | `1.18.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.18.0` | ✅ latest |
 | Fedora rawhide | `1.18.0` | ✅ latest |
 | Nix unstable | `1.17.0` | ⚠️ outdated |
 | Void | `1.14.0` | ⚠️ outdated |
@@ -108,4 +108,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:13:01Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:20:53Z._
