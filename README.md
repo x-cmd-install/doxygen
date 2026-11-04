@@ -14,25 +14,25 @@ x install doxygen
 
 ## Code insight
 
-Total: **572,313** lines of code across **952** files in the top 5 languages.
+Total: **572,318** lines of code across **952** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 187,117 | 79,783 | 17,322 | 42 |
-| Cpp | 142,780 | 12,736 | 10,922 | 220 |
+| Cpp | 142,785 | 12,736 | 10,923 | 220 |
 | CHeader | 134,196 | 48,155 | 20,274 | 397 |
 | Xml | 37,421 | 20 | 58 | 268 |
 | Python | 35,444 | 965 | 1,070 | 25 |
 
 ## OpenSSF Scorecard
 
-Overall score: **4.9 / 10**
+Overall score: **4.7 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (3/10) — Found 7/21 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Security-Policy** (0/10) — security policy file not detected
-- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `Release_1_18_0` (2026-08-13)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-03
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,599 · **Forks**: 1,379 · **Open issues**: 8,309 · **Contributors**: 308
+- **Stars**: 6,600 · **Forks**: 1,379 · **Open issues**: 8,310 · **Contributors**: 308
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3443 · **Open PRs**: 198 · **Closed issues**: 6607 · **Open issues**: 1702 · **Commits**: 13586
+- **Releases**: 21 · **Merged PRs**: 3445 · **Open PRs**: 198 · **Closed issues**: 6607 · **Open issues**: 1703 · **Commits**: 13593
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 22 | 1 | 3 | 23 | 94 |
-| last60d | 2026-09-04 | 0 | 50 | 2 | 6 | 43 | 155 |
-| 90d | 2026-08-05 | 1 | 88 | 3 | 14 | 52 | 309 |
-| last180d | 2026-05-07 | 1 | 193 | 3 | 32 | 62 | 653 |
-| 360d | 2025-11-08 | 4 | 336 | 8 | 104 | 84 | 1244 |
-| last720d | 2024-11-13 | 9 | 565 | 19 | 310 | 198 | 2246 |
+| 30d | 2026-10-05 | 0 | 24 | 1 | 3 | 23 | 101 |
+| last60d | 2026-09-05 | 0 | 52 | 2 | 6 | 43 | 162 |
+| 90d | 2026-08-06 | 1 | 89 | 3 | 14 | 53 | 316 |
+| last180d | 2026-05-08 | 1 | 193 | 3 | 32 | 62 | 660 |
+| 360d | 2025-11-09 | 4 | 338 | 8 | 104 | 85 | 1251 |
+| last720d | 2024-11-14 | 9 | 567 | 19 | 309 | 199 | 2253 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **265** distros on [repology.org](https://repology.org/project/doxygen). **57** are ✅ on the latest upstream release, **155** are ⚠️ on an older version.
+Reported by **266** distros on [repology.org](https://repology.org/project/doxygen). **57** are ✅ on the latest upstream release, **155** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:16:37Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:57:53Z._
