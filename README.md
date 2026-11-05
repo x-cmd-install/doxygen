@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,600 · **Forks**: 1,379 · **Open issues**: 8,310 · **Contributors**: 308
+- **Stars**: 6,602 · **Forks**: 1,380 · **Open issues**: 8,310 · **Contributors**: 308
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3445 · **Open PRs**: 198 · **Closed issues**: 6607 · **Open issues**: 1703 · **Commits**: 13593
+- **Releases**: 21 · **Merged PRs**: 3445 · **Open PRs**: 199 · **Closed issues**: 6607 · **Open issues**: 1703 · **Commits**: 13593
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 24 | 1 | 3 | 23 | 101 |
-| last60d | 2026-09-05 | 0 | 52 | 2 | 6 | 43 | 162 |
-| 90d | 2026-08-06 | 1 | 89 | 3 | 14 | 53 | 316 |
-| last180d | 2026-05-08 | 1 | 193 | 3 | 32 | 62 | 660 |
-| 360d | 2025-11-09 | 4 | 338 | 8 | 104 | 85 | 1251 |
-| last720d | 2024-11-14 | 9 | 567 | 19 | 309 | 199 | 2253 |
+| 30d | 2026-10-06 | 0 | 24 | 2 | 3 | 23 | 101 |
+| last60d | 2026-09-06 | 0 | 51 | 2 | 5 | 41 | 162 |
+| 90d | 2026-08-07 | 1 | 88 | 4 | 13 | 53 | 316 |
+| last180d | 2026-05-09 | 1 | 193 | 4 | 32 | 62 | 660 |
+| 360d | 2025-11-10 | 4 | 337 | 9 | 104 | 85 | 1251 |
+| last720d | 2024-11-15 | 9 | 566 | 20 | 308 | 199 | 2252 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **266** distros on [repology.org](https://repology.org/project/doxygen). **57** are ✅ on the latest upstream release, **155** are ⚠️ on an older version.
+Reported by **267** distros on [repology.org](https://repology.org/project/doxygen). **58** are ✅ on the latest upstream release, **155** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:57:53Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:18:30Z._
