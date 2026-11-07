@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,602 · **Forks**: 1,380 · **Open issues**: 8,310 · **Contributors**: 308
+- **Stars**: 6,604 · **Forks**: 1,380 · **Open issues**: 8,310 · **Contributors**: 308
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 24 | 3 | 3 | 22 | 101 |
-| last60d | 2026-09-07 | 0 | 48 | 3 | 5 | 40 | 162 |
-| 90d | 2026-08-08 | 1 | 88 | 5 | 13 | 53 | 316 |
-| last180d | 2026-05-10 | 1 | 187 | 5 | 32 | 62 | 660 |
-| 360d | 2025-11-11 | 4 | 336 | 10 | 103 | 85 | 1251 |
-| last720d | 2024-11-16 | 9 | 565 | 21 | 308 | 198 | 2246 |
+| 30d | 2026-10-08 | 0 | 24 | 3 | 3 | 21 | 101 |
+| last60d | 2026-09-08 | 0 | 47 | 3 | 5 | 40 | 162 |
+| 90d | 2026-08-09 | 1 | 87 | 5 | 13 | 53 | 316 |
+| last180d | 2026-05-11 | 1 | 186 | 5 | 31 | 62 | 660 |
+| 360d | 2025-11-12 | 4 | 336 | 10 | 103 | 85 | 1251 |
+| last720d | 2024-11-17 | 9 | 565 | 21 | 308 | 197 | 2239 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **267** distros on [repology.org](https://repology.org/project/doxygen). **58** are ✅ on the latest upstream release, **155** are ⚠️ on an older version.
+Reported by **268** distros on [repology.org](https://repology.org/project/doxygen). **62** are ✅ on the latest upstream release, **152** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:13:18Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:25:38Z._
