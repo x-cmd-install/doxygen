@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,613 · **Forks**: 1,383 · **Open issues**: 8,312 · **Contributors**: 309
+- **Stars**: 6,613 · **Forks**: 1,383 · **Open issues**: 8,313 · **Contributors**: 309
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 3451 · **Open PRs**: 202 · **Closed issues**: 6603 · **Open issues**: 1709 · **Commits**: 13608
+- **Releases**: 21 · **Merged PRs**: 3451 · **Open PRs**: 202 · **Closed issues**: 6604 · **Open issues**: 1709 · **Commits**: 13608
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 30 | 5 | 2 | 24 | 109 |
-| last60d | 2026-09-12 | 0 | 49 | 5 | 2 | 42 | 157 |
-| 90d | 2026-08-13 | 1 | 85 | 7 | 9 | 56 | 268 |
-| last180d | 2026-05-15 | 1 | 178 | 7 | 26 | 65 | 605 |
-| 360d | 2025-11-16 | 4 | 338 | 12 | 99 | 88 | 1254 |
-| last720d | 2024-11-21 | 9 | 570 | 23 | 302 | 196 | 2250 |
+| 30d | 2026-10-13 | 0 | 30 | 5 | 3 | 24 | 109 |
+| last60d | 2026-09-13 | 0 | 48 | 5 | 3 | 42 | 157 |
+| 90d | 2026-08-14 | 0 | 82 | 7 | 10 | 56 | 268 |
+| last180d | 2026-05-16 | 1 | 177 | 7 | 27 | 65 | 605 |
+| 360d | 2025-11-17 | 4 | 338 | 12 | 100 | 88 | 1254 |
+| last720d | 2024-11-22 | 9 | 570 | 23 | 303 | 195 | 2249 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **268** distros on [repology.org](https://repology.org/project/doxygen). **62** are ✅ on the latest upstream release, **152** are ⚠️ on an older version.
+Reported by **267** distros on [repology.org](https://repology.org/project/doxygen). **62** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **268** distros on [repology.org](https://repology.org/project/doxyg
 | Ubuntu 26.04 LTS | `1.15.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.9.8` | ⚠️ outdated |
 | Arch | `1.18.0` | ✅ latest |
-| Homebrew | `1.18.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.18.0` | ✅ latest |
 | Nix unstable | `1.17.0` | ⚠️ outdated |
 | Void | `1.14.0` | ⚠️ outdated |
@@ -108,4 +108,4 @@ Install metadata for doxygen lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:53:57Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:59:20Z._
