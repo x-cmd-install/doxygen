@@ -14,23 +14,23 @@ x install doxygen
 
 ## 代码洞察
 
-合计: **580,795** 行代码（覆盖前 5 种语言、共 **995** 个文件）。
+合计: **580,798** 行代码（覆盖前 5 种语言、共 **995** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | C | 190,813 | 81,274 | 17,314 | 43 |
-| Cpp | 143,878 | 12,918 | 10,990 | 231 |
+| Cpp | 143,881 | 12,918 | 10,990 | 231 |
 | CHeader | 134,502 | 48,620 | 20,312 | 399 |
 | Xml | 40,681 | 20 | 58 | 297 |
 | Python | 35,555 | 963 | 1,080 | 25 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.7 / 10**
+总评分: **4.8 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 9/24 approved changesets -- score normalized to 3
+- **Code-Review** (4/10) — Found 8/20 approved changesets -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -43,27 +43,27 @@ x install doxygen
 ## 发布
 
 - **最新版本**: `Release_1_18_0` (2026-08-13)
-- **最近提交**: 2026-11-23
+- **最近提交**: 2026-11-24
 - **Release 含资产**: 10 个
 
 ## 流行度
 
-- **Star**: 6,625 · **Fork**: 1,385 · **开放 issue**: 8,316 · **贡献者**: 310
+- **Star**: 6,626 · **Fork**: 1,385 · **开放 issue**: 8,316 · **贡献者**: 310
 
 ## 累计统计
 
-- **发布数**: 21 · **已合并 PR**: 3463 · **开放 PR**: 199 · **已关闭 issue**: 6604 · **开放 issue**: 1712 · **提交数**: 13658
+- **发布数**: 21 · **已合并 PR**: 3463 · **开放 PR**: 200 · **已关闭 issue**: 6604 · **开放 issue**: 1712 · **提交数**: 13659
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 25 | 2 | 3 | 8 | 89 |
-| last60d | 2026-09-25 | 0 | 46 | 2 | 4 | 33 | 170 |
-| 90d | 2026-08-26 | 0 | 77 | 4 | 8 | 57 | 254 |
-| last180d | 2026-05-28 | 1 | 168 | 4 | 25 | 66 | 599 |
-| 360d | 2025-11-29 | 4 | 342 | 9 | 97 | 90 | 1273 |
-| last720d | 2024-12-04 | 9 | 581 | 19 | 300 | 195 | 2265 |
+| 30d | 2026-10-26 | 0 | 23 | 3 | 3 | 8 | 90 |
+| last60d | 2026-09-26 | 0 | 46 | 3 | 4 | 33 | 171 |
+| 90d | 2026-08-27 | 0 | 76 | 5 | 7 | 54 | 255 |
+| last180d | 2026-05-29 | 1 | 167 | 5 | 25 | 65 | 600 |
+| 360d | 2025-11-30 | 4 | 342 | 10 | 97 | 90 | 1274 |
+| last720d | 2024-12-05 | 9 | 581 | 20 | 300 | 195 | 2266 |
 
 ## Release 资产
 
@@ -80,25 +80,6 @@ x install doxygen
 | [doxygen_manual-1.18.0.chm.zip](https://github.com/doxygen/doxygen/releases/download/Release_1_18_0/doxygen_manual-1.18.0.chm.zip) | 14.4 MiB | `other` |
 | [doxygen_manual-1.18.0.pdf.zip](https://github.com/doxygen/doxygen/releases/download/Release_1_18_0/doxygen_manual-1.18.0.pdf.zip) | 1.5 MiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/doxygen) 上共有 **264** 个发行版报告此项目。**66** 个 ✅ 已是最新上游版本，**145** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.15.0` | 🪦 legacy |
-| Debian 14 | `1.15.0` | 🪦 legacy |
-| Debian 13 | `1.9.8` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.15.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.9.8` | ⚠️ outdated |
-| Arch | `1.18.0` | ✅ latest |
-| Homebrew | `1.18.0` | ✅ latest |
-| Fedora rawhide | `1.18.0` | ✅ latest |
-| Nix unstable | `1.17.0` | ⚠️ outdated |
-| Void | `1.14.0` | ⚠️ outdated |
-| Alpine edge | `1.18.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.18.0` | ✅ latest |
-
 ## 改进这些数据
 
 doxygen 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `doxygen` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -108,4 +89,4 @@ doxygen 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T10:37:18Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:01:14Z._
